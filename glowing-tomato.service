@@ -1,0 +1,8 @@
+[Unit]
+Description=Glowing Tomato
+
+[Service]
+ExecStart=python3 Documents/glowing-tomato/main.py
+
+[Install]
+WantedBy=multi-user.target
